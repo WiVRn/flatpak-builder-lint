@@ -180,8 +180,6 @@
     },
     "ca._0ldsk00l.Nestopia": {
         "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-home-ro-filesystem-access": "Predates the linter rule"
         }
     },
@@ -2546,11 +2544,6 @@
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Required as with fallback-x11 socket, Teamspeak will crash when audio or hotkey settings are opened",
             "finish-args-unnecessary-xdg-config-TeamSpeak-rw-access": "TeamSpeak 6 plugins installation directory."
-        }
-    },
-    "com.teeworlds.Teeworlds": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule"
         }
     },
     "com.tencent.WeChat": {
@@ -5271,11 +5264,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "jp.yvt.OpenSpades": {
-        "stable": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
-        }
-    },
     "la.ogri.strongbox": {
         "stable": {
             "finish-args-host-filesystem-access": "Predates the linter rule"
@@ -5495,11 +5483,6 @@
     "net.imaginaryinfinity.Squiid": {
         "stable": {
             "finish-args-not-defined": "Is a command line application"
-        }
-    },
-    "net.jami.Jami": {
-        "*": {
-            "finish-args-login1-system-talk-name": "Predates the linter rule"
         }
     },
     "net.jenyay.Outwiker": {
@@ -6000,7 +5983,6 @@
     "org.codeblocks.codeblocks": {
         "*": {
             "finish-args-arbitrary-dbus-access": "IDEs tend to require direct dbus access",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule",
             "finish-args-has-socket-ssh-auth": "Predates the linter rule",
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
@@ -8243,12 +8225,6 @@
             "finish-args-home-filesystem-access": "Predates the linter rule"
         }
     },
-    "org.quetoo.Quetoo": {
-        "stable": {
-            "appstream-id-mismatch-flatpak-id": "appstream-cid predates this linter rule",
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
-        }
-    },
     "org.qxmledit.QXmlEdit": {
         "stable": {
             "finish-args-home-filesystem-access": "Predates the linter rule"
@@ -8507,11 +8483,6 @@
         }
     },
     "org.tuxemon.Tuxemon": {
-        "*": {
-            "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
-        }
-    },
-    "org.tuxpaint.Tuxpaint": {
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
         }
